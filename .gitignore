@@ -1,0 +1,16 @@
+# 用户放入根目录待整理的原始材料
+/*.pdf
+/*.jpg
+/*.jpeg
+/*.png
+/*.bmp
+/*.webp
+/*.tif
+/*.tiff
+
+# 程序每次运行生成的结果与日志
+/整理结果*/
+/发票整理错误日志.txt
+
+# Codex 本地工作产物
+/Codex WorkSpace/

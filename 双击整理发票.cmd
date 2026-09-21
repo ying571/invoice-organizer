@@ -21,7 +21,7 @@ echo.
 set "RC=%ERRORLEVEL%"
 echo.
 if "%RC%"=="0" echo 整理完成，请打开新生成的“整理结果”目录。
-if not "%RC%"=="0" echo 部分材料无法唯一配对，请查看新生成结果目录中的“待确认.txt”。
+if not "%RC%"=="0" echo 部分材料未能配对，请查看新生成结果目录中的“待确认.txt”和“识别日志.json”。
 echo.
 pause
 exit /b %RC%
